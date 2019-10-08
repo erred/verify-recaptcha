@@ -4,6 +4,7 @@
 .gitignore
 
 cloudbuild.yaml
+deploy/
 Dockerfile
 LICENSE
 Makefile
