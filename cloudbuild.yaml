@@ -26,3 +26,4 @@ substitutions:
   _IMG: verify-recaptcha
 tags:
   - $SHORT_SHA
+  - $COMMIT_SHA
