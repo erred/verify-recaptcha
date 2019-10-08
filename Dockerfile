@@ -10,6 +10,6 @@ RUN  go build -mod=vendor -o /bin/app
 FROM scratch
 
 COPY --from=build /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/ca-certificates.crt
-COPY --from=build /bin/app
+COPY --from=build /bin/app /
 
 ENTRYPOINT ["/app"]
